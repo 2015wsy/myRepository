@@ -6,6 +6,6 @@ package com.meituan.wsy.first_github;
  */
 public class App {
 	public static void main(String[] args) {
-		System.out.println("Hello Worldsasa!");
+		System.out.println("Hello Worssldsasa!");
 	}
 }
