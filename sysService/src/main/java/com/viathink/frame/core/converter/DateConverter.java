@@ -11,6 +11,7 @@ public class DateConverter implements Converter<String, Date> {
 
 	@Override
 	public Date convert(String source) {
+
 		try {
 			return DateUtils.parseDate(source, "yyyy-MM-dd", "yyyy-MM-dd hh:mm:ss");
 		} catch (ParseException e) {
